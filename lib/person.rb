@@ -12,7 +12,7 @@ class Person
     @job = new_job
   end 
   
-  def breed 
+  def job 
     @job
   end 
 end 
