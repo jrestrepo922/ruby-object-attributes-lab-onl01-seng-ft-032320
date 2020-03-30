@@ -7,5 +7,12 @@ class Dog
   def name # getter
     @name
   end
-
+  
+  def breed=(new_breed) #setter
+    @breed = new_breed
+  end 
+  
+  def breed 
+    @breed
+  end 
 end 
